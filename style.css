@@ -1,0 +1,56 @@
+.slider_header h2{
+    font-size:30px;
+    font-weight: 700;
+    position: relative;
+}
+.slider_header h2::before{
+    position: absolute;
+    content: "";
+    width: 93px;
+    height: 4px;
+    background: #0cc747;
+    right: 46%;
+    bottom: -40%;
+    border-radius: 7px;
+}
+.slider_header h2::after{
+    position: absolute;
+    content: '';
+    background: black;
+    height: 4px;
+    width: 25px;
+    right: 49%;
+    bottom: -40%;
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+.single-item {
+    border: 1px solid #e9e6e6;
+    margin-top: 116px;
+    padding: 15px;
+}
+.single-item h4{
+    position: relative;
+}
+
+.single-item h4::before{
+    position: absolute;
+    content: "";
+    height: 145px;
+    width: 2px;
+    background: #e9e6e6;
+    left: -10%;
+    bottom: -118%;
+}
+.content{
+    padding-left: 80px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 35px;
+    height: 2px;
+    margin:5px 7px;
+    background:#D6D6D6;
+    display:block;
+    transition:opacity .2s ease;
+    border-radius:30px;
+}
